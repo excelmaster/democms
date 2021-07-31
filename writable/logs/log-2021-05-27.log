@@ -1,0 +1,324 @@
+CRITICAL - 2021-05-27 17:03:38 --> Invalid file: modulos/index.php
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulos/index.p...')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('modulos/index', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(14): view('modulos/index', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 17:03:39 --> Invalid file: modulos/index.php
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulos/index.p...')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('modulos/index', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(14): view('modulos/index', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-05-27 17:17:22 --> Unknown column 'ome_lessons.deleted_at' in 'where clause'
+CRITICAL - 2021-05-27 17:17:22 --> Unknown column 'ome_lessons.deleted_at' in 'where clause'
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(11): CodeIgniter\BaseModel->findAll()
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('1')
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#9 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-27 17:18:32 --> Undefined variable: courses
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\lessons\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 25, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('lessons/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(13): view('lessons/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('1')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 17:19:08 --> Undefined variable: courses
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\lessons\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 25, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('lessons/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(13): view('lessons/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('1')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 17:40:29 --> Undefined index: mundo
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\lessons\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 28, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('lessons/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(14): view('lessons/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 17:41:20 --> Undefined index: mundo
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\lessons\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 28, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('lessons/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(14): view('lessons/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 17:41:39 --> Undefined index: mundo
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\lessons\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 28, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('lessons/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(14): view('lessons/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 18:14:19 --> Undefined index: imig_url
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\lessons\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 33, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('lessons/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(13): view('lessons/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 18:19:01 --> syntax error, unexpected end of file
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('lessons/index', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(13): view('lessons/index', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('5')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 18:44:33 --> Undefined variable: courseId
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\templates\kids_template.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 104, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('templates/kids_...', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('courses/index', Array, true)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(13): view('courses/index', Array)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 18:47:16 --> Undefined variable: courseId
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\templates\kids_template.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 104, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('templates/kids_...', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(14): view('templates/kids_...', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 18:51:53 --> A non-numeric value encountered
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\xamp\\htdocs\\...', 14, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 18:56:26 --> Undefined property: App\Controllers\Courses_k::$load
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xamp\\htdocs\\...', 14, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 18:59:43 --> Undefined variable: course
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\templates\kids_template.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 104, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('templates/kids_...', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(14): view('templates/kids_...', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 19:05:19 --> syntax error, unexpected 'view' (T_STRING)
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\...')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-27 19:06:02 --> Undefined variable: 5
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 13, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('5')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 19:06:33 --> Argument 2 passed to view() must be of the type array, string given, called in D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php on line 13
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(13): view('templates/kids_...', '5')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('5')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 19:12:38 --> Undefined variable: courseId
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\courses\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 29, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('courses/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(14): view('courses/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 19:14:03 --> Undefined index: course
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\courses\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 29, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('courses/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(14): view('courses/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 19:16:33 --> Too few arguments to function App\Controllers\Lessons_k::index(), 1 passed in D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 2 expected
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('1')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 19:17:02 --> Too few arguments to function App\Controllers\Lessons_k::index(), 1 passed in D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 2 expected
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('1')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 19:22:26 --> Too few arguments to function App\Controllers\Lessons_k::index(), 1 passed in D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 2 expected
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('1')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 20:03:58 --> syntax error, unexpected end of file
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('courses/index', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(13): view('courses/index', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 20:05:46 --> syntax error, unexpected end of file
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('courses/index', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(13): view('courses/index', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 20:07:43 --> syntax error, unexpected end of file
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('courses/index', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses_k.php(13): view('courses/index', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses_k->index()
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-05-27 20:43:36 --> Unknown column 'ome_activities.deleted_at' in 'where clause'
+CRITICAL - 2021-05-27 20:43:36 --> Unknown column 'ome_activities.deleted_at' in 'where clause'
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(11): CodeIgniter\BaseModel->findAll()
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1')
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#9 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-27 20:45:28 --> Invalid file: activities/index.php
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('activities/inde...')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(14): view('activities/inde...', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 20:47:01 --> Undefined index: lesson_number
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\activities\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 41, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(14): view('activities/inde...', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 20:51:24 --> Array to string conversion
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\activities\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xamp\\htdocs\\...', 41, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(14): view('activities/inde...', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 21:01:59 --> Undefined variable: lesson
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\activities\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 47, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(13): view('activities/inde...', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 21:24:05 --> Undefined variable: courseId
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\activities\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 20, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(13): view('activities/inde...', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1', '1')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 21:30:47 --> Undefined variable: courseId
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\lessons\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 43, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('lessons/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Lessons_k.php(17): view('lessons/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Lessons_k->index('5', '1')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessons_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,180 @@
+CRITICAL - 2021-05-29 16:31:29 --> syntax error, unexpected ',', expecting end of file
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(13): view('activities/inde...', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1', '1', '5')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 16:31:49 --> syntax error, unexpected '<', expecting end of file
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(13): view('activities/inde...', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1', '1', '5')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 16:32:10 --> syntax error, unexpected '<'
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(13): view('activities/inde...', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1', '1', '5')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-05-29 16:38:59 --> Error connecting to the database: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+CRITICAL - 2021-05-29 16:38:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(11): CodeIgniter\BaseModel->findAll()
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('2', '1', '2', '5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-29 16:39:03 --> Error connecting to the database: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+CRITICAL - 2021-05-29 16:39:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(11): CodeIgniter\BaseModel->findAll()
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('2', '1', '2', '5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-29 16:43:39 --> Error connecting to the database: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+CRITICAL - 2021-05-29 16:43:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(11): CodeIgniter\BaseModel->findAll()
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('2', '1', '2', '5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-29 16:43:52 --> Error connecting to the database: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+CRITICAL - 2021-05-29 16:43:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(11): CodeIgniter\BaseModel->findAll()
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('2', '1', '2', '5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 17:36:34 --> Cannot declare class App\Controllers\Activities_k, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-29 17:37:39 --> Too few arguments to function App\Controllers\H5p::index(), 0 passed in D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 5 expected
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\H5p->index()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H5p))
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-29 17:41:17 --> Undefined index: lesson
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\h5p\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 34, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('h5p/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\H5p.php(16): view('h5p/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\H5p->index('230', '1', '2', '3', '4')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H5p))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 17:48:02 --> Undefined index: id
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\h5p\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 38, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('h5p/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\H5p.php(16): view('h5p/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\H5p->index('230', '1', '2', '3', '4')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H5p))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 17:50:59 --> Undefined variable: c
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\h5p\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 38, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('h5p/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\H5p.php(16): view('h5p/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\H5p->index('230', '1', '2', '3', '4')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H5p))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 17:51:01 --> Undefined variable: c
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\h5p\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 38, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('h5p/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\H5p.php(16): view('h5p/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\H5p->index('230', '1', '2', '3', '4')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H5p))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 17:51:36 --> Undefined index: id
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\h5p\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 39, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('h5p/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\H5p.php(16): view('h5p/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\H5p->index('230', '1', '2', '3', '4')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H5p))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 18:39:46 --> Use of undefined constant lessonId - assumed 'lessonId' (this will throw an Error in a future version of PHP)
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\hvp\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xamp\\htdocs\\...', 20, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('hvp/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Hvp.php(16): view('hvp/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Hvp->index('361', '1', '1', '1', '5')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hvp))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 19:47:17 --> syntax error, unexpected ')', expecting ';' or ','
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('activities/inde...', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Activities_k.php(13): view('activities/inde...', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Activities_k->index('1', '1', '1', '5')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activities_k))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 22:37:45 --> syntax error, unexpected ')', expecting ';' or ','
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('content/index', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Content.php(18): view('content/index', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Content->index('9999', '1', '1', '1', '5', 'scorm', '2')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

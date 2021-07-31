@@ -1,0 +1,6 @@
+CRITICAL - 2021-07-23 21:21:37 --> Too few arguments to function App\Controllers\Test::index(), 0 passed in D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Test->index()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

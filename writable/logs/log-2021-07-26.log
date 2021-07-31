@@ -1,0 +1,27 @@
+CRITICAL - 2021-07-26 20:26:21 --> Too few arguments to function App\Controllers\Test::index(), 0 passed in D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Test->index()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-26 21:14:43 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\...')
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-26 21:42:00 --> Undefined variable: id
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\test\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 8, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('test/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\test.php(13): view('test/index', Array)
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Test->index('hola')
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2021-06-15 10:52:55 --> Undefined variable: site
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Views\test\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 5, Array)
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('test/index', Array, true)
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\test.php(10): view('test/index')
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Test->index()
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#7 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 16:46:12 --> syntax error, unexpected ''); ?>" alt="" class="card-flu' (T_ENCAPSED_AND_WHITESPACE), expecting ')'
+#0 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('courses/index', Array, true)
+#2 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\app\Controllers\Courses.php(13): view('courses/index', Array)
+#3 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Courses->index('teens')
+#4 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+#5 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xamp\htdocs\2021\cursos\ci4\omecms\ome\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
