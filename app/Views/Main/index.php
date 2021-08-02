@@ -109,7 +109,7 @@
 		<footer class="main-footer">
 			<!-- To the right -->
 			<div class="float-right d-none d-sm-inline">
-				Anything you want
+				Tecnología para la educación
 			</div>
 			<!-- Default to the left -->
 			<strong>Copyright © 2020-2021 <a href="https://mundoeducativodigital.com/">Mundo Educativo Digital</a>.</strong> All rights reserved.
